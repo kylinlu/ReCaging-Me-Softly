@@ -35,6 +35,18 @@ label start:
 
             jump beautiful
 
+        "Magnificient":
+
+            jump magnificient
+
+        "Fabulous":
+
+            jump fabulous
+
+        "Your shoes....I like them":
+
+            jump bad
+
 label beautiful:
 
     n "I'm Beautiful? Why thank you!!"
@@ -48,3 +60,63 @@ label beautiful:
     "Congratulations! You got the romantic ending!"
 
     return
+
+label magnificient:
+
+    n "I hope I look like a unicorn."
+
+    m "Sir... You are by far my favourite actor ever!!! Can we... ummm...ummm"
+
+    n "What is it, child? Spit it out!!!"
+
+    "Next thing you knew, everything turned black."
+
+    m "Where am I...?"
+
+    n "Worry not. You passed out earlier so I dragged your body to the hospital."
+
+    m "Mister Cage... Thank you"
+
+    "And so he caged your heart softly.."
+
+    "Congratulations! You got the good ending!"
+
+    return
+
+label fabulous:
+
+    n "I know, right?"
+
+    m "Sir! You have been my favourite actor! I- I-"
+
+    n "Don't call me Sir... Call me Daddy."
+
+    "And so they made love all night long and had beautiful children"
+
+    "Congratulations! You got the sexy ending!"
+
+    return
+
+label bad:
+
+    n "Uhh.. thanks?"
+
+    m "I-I...-"
+
+    n "Umm... I think I need to go."
+
+    m "NO! Don't leave me!!!"
+
+    "I grabbed his arm with all my might"
+
+    n "What??? Let go of me at once!"
+
+    m "No! I love you!!!"
+
+    n "Somebody help!!"
+
+    "Someone from the coffee shop called the police and you were arrested."
+
+    "You went crazy in your prison cell and swore to get Nicolas Cage with you"
+
+    "Better luck next time (Bad ending)"
