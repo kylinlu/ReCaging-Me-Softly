@@ -151,6 +151,7 @@ define config.save_directory = "CagingMeSoftly-1551389288"
 
 define config.window_icon = "gui/window_icon.png"
 
+define gui.choice_button_text_idle_color = '#e246b2'
 
 ## Build configuration #########################################################
 ##
